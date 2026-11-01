@@ -5,10 +5,9 @@ import java.util.List;
 
 import miniems.meter.api.ElectricityMeter;
 import miniems.meter.api.MeterType;
-
-import miniems.common.channel.Channel;
-import miniems.common.channel.ChannelImpl;
-import miniems.common.channel.ChannelId;
+import miniems.channel.Channel;
+import miniems.channel.ChannelImpl;
+import miniems.channel.ChannelId;
 
 public class GridMeter implements ElectricityMeter {
     

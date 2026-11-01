@@ -1,6 +1,6 @@
-package miniems.common.channel;
+package miniems.channel;
 
-import miniems.common.component.Component;
+import miniems.component.Component;
 
 public class ChannelImpl<T> implements Channel<T> {
     

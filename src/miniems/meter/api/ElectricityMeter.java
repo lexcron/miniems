@@ -1,6 +1,6 @@
 package miniems.meter.api;
 
-import miniems.common.component.Component;
+import miniems.component.Component;
 
 public interface ElectricityMeter extends Component {
 
