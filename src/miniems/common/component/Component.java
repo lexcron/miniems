@@ -5,5 +5,5 @@ import miniems.common.channel.Channel;
 
 public interface Component {
     String id();
-    List<Channel> channels();
+    List<Channel<?>> channels();
 }

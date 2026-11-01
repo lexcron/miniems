@@ -12,7 +12,7 @@ import miniems.common.channel.ChannelId;
 
 public class GridMeter implements ElectricityMeter {
     
-    private final List<Channel> channelsList;
+    private final List<Channel<?>> channelsList;
     
     @Override
     public String id() {
@@ -25,16 +25,16 @@ public class GridMeter implements ElectricityMeter {
     }
     
     @Override
-    public List<Channel> channels() {
+    public List<Channel<?>> channels() {
         return this.channelsList;
     }
     
     public GridMeter() {
         this.channelsList = new ArrayList<>();
         
-        this.channelsList.add(new ChannelImpl(this, ChannelId.ACTIVE_POWER));
-        this.channelsList.add(new ChannelImpl(this, ChannelId.VOLTAGE));
-        this.channelsList.add(new ChannelImpl(this, ChannelId.CURRENT));
+        this.channelsList.add(new ChannelImpl<Integer>(this, ChannelId.ACTIVE_POWER));
+        this.channelsList.add(new ChannelImpl<Integer>(this, ChannelId.VOLTAGE));
+        this.channelsList.add(new ChannelImpl<Integer>(this, ChannelId.CURRENT));
         
     }
     
