@@ -2,7 +2,7 @@ package miniems.common.channel;
 
 import miniems.common.component.Component;
 
-public interface Channel<T> {
+public interface Channel {
     
     Component getComponent();
     
