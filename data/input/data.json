@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "datetime": "2026-11-01T10:00:00",
+    "components": {
+      "GridMeter": {
+        "id": "gridMeter0",
+        "channels": {
+          "ACTIVE_POWER": 1200,
+          "VOLTAGE": 230,
+          "CURRENT": 5
+        }
+      },
+      "PVMeter": {
+        "id": "pvMeter0",
+        "channels": {
+          "ACTIVE_POWER": 2500,
+          "VOLTAGE": 230,
+          "CURRENT": 11
+        }
+      },
+      "Ess": {
+        "id": "ess0",
+        "channels": {
+          "ACTIVE_POWER": 500,
+          "SOC": 75
+        }
+      }
+    }
+  },
+  {
+    "id": 2,
+    "datetime": "2026-11-01T10:00:01",
+    "components": {
+      "GridMeter": {
+        "id": "gridMeter0",
+        "channels": {
+          "ACTIVE_POWER": 800,
+          "VOLTAGE": 231,
+          "CURRENT": 3
+        }
+      },
+      "PVMeter": {
+        "id": "pvMeter0",
+        "channels": {
+          "ACTIVE_POWER": 3000,
+          "VOLTAGE": 231,
+          "CURRENT": 13
+        }
+      },
+      "Ess": {
+        "id": "ess0",
+        "channels": {
+          "ACTIVE_POWER": -400,
+          "SOC": 74
+        }
+      }
+    }
+  },
+  {
+    "id": 3,
+    "datetime": "2026-11-01T10:00:02",
+    "components": {
+      "GridMeter": {
+        "id": "gridMeter0",
+        "channels": {
+          "ACTIVE_POWER": -600,
+          "VOLTAGE": 230,
+          "CURRENT": -3
+        }
+      },
+      "PVMeter": {
+        "id": "pvMeter0",
+        "channels": {
+          "ACTIVE_POWER": 3500,
+          "VOLTAGE": 230,
+          "CURRENT": 15
+        }
+      },
+      "Ess": {
+        "id": "ess0",
+        "channels": {
+          "ACTIVE_POWER": 0,
+          "SOC": 74
+        }
+      }
+    }
+  }
+]
